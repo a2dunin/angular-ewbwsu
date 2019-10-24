@@ -34,5 +34,5 @@
 }
 
 .cust_check_label input:checked + .cust_checkbox {
-  background: #fff url("assets/img/check.png") 1px 2px no-repeat;
+  background: #fff url("https://cdn.jsdelivr.net/gh/a2dunin/angular-ewbwsu@master/check.png") 1px 2px no-repeat;
 }
