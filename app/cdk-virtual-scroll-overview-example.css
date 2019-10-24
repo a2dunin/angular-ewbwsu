@@ -1,0 +1,38 @@
+.example-viewport {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.example-item {
+  height: 50px;
+}
+
+.cust_check_label {
+  max-width: 410px;
+  cursor: pointer;
+  margin-bottom: 0;
+  line-height: 12px;
+}
+
+.cust_checkbox {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #b9b9b9;
+  vertical-align: middle;
+}
+
+.cust_check_label input {
+  position: fixed;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.cust_check_label input:checked + .cust_checkbox {
+  background: #fff url("assets/img/check.png") 1px 2px no-repeat;
+}
